@@ -55,6 +55,8 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
     implementation("androidx.compose.material:material-icons-extended")
+    implementation("com.google.android.gms:play-services-auth:21.2.0") // or latest stable
+
 
     // ✅ ADD THIS: Jetpack Navigation for Compose
     implementation("androidx.navigation:navigation-compose:2.7.7")
